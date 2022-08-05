@@ -1,7 +1,6 @@
 require 'net/http'
 require 'rexml/document'
 require 'json'
-include REXML
 
 require_relative 'lib/forecast'
 

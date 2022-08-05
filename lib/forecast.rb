@@ -1,8 +1,6 @@
 require 'date'
-include REXML
 
 class MeteoServiceForecast
-
   TIME_OF_DAY = %w[ночь утро день вечер].freeze
   CLOUDINESS = %w[ясно малооблачно облачно пасмурно].freeze
 
